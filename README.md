@@ -3,9 +3,9 @@ Learning basic something about MarkDown
 # 一. 标题
 #### #号数目（1-6）分别代表h1-h6；
 # 二. 强调
-### * *一颗星代表斜体*
-### * **两颗星代表加粗**
-### * ***三颗星代表倾斜加粗*** 
+###  *一颗星代表斜体*
+###  **两颗星代表加粗**
+###  ***三颗星代表倾斜加粗*** 
 ### _也可以用这个_符号表示_
 # 三. 列表
 ## 1. 无序列表
@@ -23,5 +23,35 @@ Learning basic something about MarkDown
    * 无序列表
 2. 有序列表
 # 四. 连接
-## 1.外部链接 [百度](http://www.baidu.com)
-## 2.内部连接 [连接到仓库的其它文件]()
+## 1. 内嵌式连接
+  * 外部链接 [百度](http://www.baidu.com)
+  * 内部连接 [连接到仓库的其它文件](reslink)
+  * 连接到本文件的某个指定区域 [连接到标题一](README.md#标题)
+## 2. 引用式连接(两种定义方法)
+  * 外部链接 [百度]
+  * 内部链接 [连接到reslink][reslink]
+  * 内部连接 [连接到标题一][h1]
+  <!--- 定义如下链接-->
+  [百度]: http://www.baidu.com
+  [reslink]: reslink
+  [h1]: README.md#标题
+## 3. 图片连接(语法:![alt] (url title))
+  * [百度图片] (）
+# 五. 代码块
+## 1. 行内代码块用反引号括起来表示`var a=13`,`console.log(a)`
+## 2. 块式代码用三个反引号'```'括起来表示
+```javascript
+var a=13;
+conlole.log(a);
+```
+# 六. html语法兼容
+<table>
+ <tr>
+  <td>(1,1)</td>
+  <td>(1,2)</td>
+ </tr>
+ <tr>
+  <td>(2,1)</td>
+  <td>(2,2)</td>
+ </tr>
+</table>
