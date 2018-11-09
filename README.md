@@ -1,2 +1,16 @@
 # MarkDown
-Learning basic something about MarkDown
+Learning basic something about MarkDown  
+# 一.标题
+#### #号数目（1-6）分别代表h1-h6；
+# 二.强调
+### *一颗星代表斜体*
+### **两颗星代表加粗**
+### ***三颗星代表倾斜加粗*** 
+### _也可以用这个_符号表示_
+# 三.列表
+## 1.无序列表
+* 无序列表用一颗星表示
+  * 无序列表嵌套前面要空两格
+    * 无序列表嵌套
+  * 无序列表嵌套
+* 无序列表
